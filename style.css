@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f9;
+  color: #333;
+  transition: 0.3s;
+}
+
+/* Navigation Bar */
+header {
+  background: #0073e6;
+  padding: 15px 0;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+#darkModeBtn {
+  background: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Section Styles */
+section {
+  width: 85%;
+  margin: auto;
+  padding: 40px 0;
+}
+h2 {
+  color: #0073e6;
+  margin-bottom: 20px;
+}
+ul li {
+  margin: 10px 0;
+}
+
+/* Project Cards */
+.project-card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+form input, form textarea, form button {
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #0073e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background: #005bb5;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #222;
+  color: #f4f4f9;
+}
+.dark-mode header {
+  background: #111;
+}
+.dark-mode .project-card {
+  background: #333;
+  color: white;
+}
